@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        spring: "#efed40"
+        user: "#1C1C1C",
+        toq: "rgba(0, 0, 0, 0.40)",
+        och: "rgba(0, 0, 0, 0.20)"
       }
     }
   },

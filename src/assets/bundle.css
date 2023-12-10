@@ -584,20 +584,12 @@ video {
   margin-top: 30px;
 }
 
-.ml-\[10px\] {
-  margin-left: 10px;
+.mt-\[\] {
+  margin-top: ;
 }
 
-.ml-\[20px\] {
-  margin-left: 20px;
-}
-
-.ml-\[50px\] {
-  margin-left: 50px;
-}
-
-.ml-\[40px\] {
-  margin-left: 40px;
+.mt-\[p-\] {
+  margin-top: p-;
 }
 
 .box-border {
@@ -648,72 +640,28 @@ video {
   width: 300px;
 }
 
+.w-\[30px\] {
+  width: 30px;
+}
+
 .w-\[80px\] {
   width: 80px;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[a\] {
-  width: a;
 }
 
 .w-auto {
   width: auto;
 }
 
-.w-\[50px\] {
-  width: 50px;
-}
-
-.w-\[30px\] {
-  width: 30px;
-}
-
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.grid-cols-\[30vh\2c 1fr\2c 30vh\] {
-  grid-template-columns: 30vh 1fr 30vh;
+.grid-cols-\[25vh\2c 1fr\2c 35vh\] {
+  grid-template-columns: 25vh 1fr 35vh;
 }
 
 .grid-cols-\[repeat\(3\2c 1fr\)\] {
   grid-template-columns: repeat(3,1fr);
-}
-
-.grid-cols-\[30vh\2c 1fr\2c 40vh\] {
-  grid-template-columns: 30vh 1fr 40vh;
-}
-
-.grid-cols-\[30vh\2c 1fr\2c 50vh\] {
-  grid-template-columns: 30vh 1fr 50vh;
-}
-
-.grid-cols-\[30vh\2c 1fr\2c 20vh\] {
-  grid-template-columns: 30vh 1fr 20vh;
-}
-
-.grid-cols-\[25vh\2c 1fr\2c 30vh\] {
-  grid-template-columns: 25vh 1fr 30vh;
-}
-
-.grid-cols-\[20vh\2c 1fr\2c 30vh\] {
-  grid-template-columns: 20vh 1fr 30vh;
-}
-
-.grid-cols-\[20vh\2c 1fr\2c 40vh\] {
-  grid-template-columns: 20vh 1fr 40vh;
-}
-
-.grid-cols-\[20vh\2c 1fr\2c 35vh\] {
-  grid-template-columns: 20vh 1fr 35vh;
-}
-
-.grid-cols-\[25vh\2c 1fr\2c 35vh\] {
-  grid-template-columns: 25vh 1fr 35vh;
 }
 
 .flex-col {
@@ -768,12 +716,24 @@ video {
   gap: 20px;
 }
 
-.gap-\[6px\] {
-  gap: 6px;
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .gap-\[5px\] {
   gap: 5px;
+}
+
+.gap-\[6px\] {
+  gap: 6px;
+}
+
+.gap-\[\] {
+  gap: ;
+}
+
+.rounded-\[50\%\] {
+  border-radius: 50%;
 }
 
 .rounded-md {
@@ -782,14 +742,6 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.rounded-\[50\%\] {
-  border-radius: 50%;
 }
 
 .border-b-\[1px\] {
@@ -804,12 +756,12 @@ video {
   border-bottom-width: 3px;
 }
 
-.border-r-\[1px\] {
-  border-right-width: 1px;
-}
-
 .border-l-\[1px\] {
   border-left-width: 1px;
+}
+
+.border-r-\[1px\] {
+  border-right-width: 1px;
 }
 
 .border-\[\#1C1C1C\] {
@@ -832,8 +784,9 @@ video {
   border-color: rgb(128 128 128 / var(--tw-border-opacity));
 }
 
-.border-\[50\%\] {
-  border-color: 50%;
+.bg-\[\#E3F5FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 245 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#E5ECF6\] {
@@ -851,40 +804,25 @@ video {
   background-color: rgb(236 234 234 / var(--tw-bg-opacity));
 }
 
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[blue\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#E3F5FF\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(227 245 255 / var(--tw-bg-opacity));
 }
 
 .p-\[17px\] {
   padding: 17px;
 }
 
-.p-\[17\] {
-  padding: 17;
+.p-\[\] {
+  padding: ;
 }
 
 .pl-2 {
   padding-left: 0.5rem;
+}
+
+.pl-\[10px\] {
+  padding-left: 10px;
 }
 
 .pl-\[20px\] {
@@ -895,16 +833,12 @@ video {
   padding-left: 17px;
 }
 
-.pl-\[15px\] {
-  padding-left: 15px;
-}
-
-.pl-\[10px\] {
-  padding-left: 10px;
-}
-
 .font-\[Inter\] {
   font-family: Inter;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
 }
 
 .text-\[12px\] {
@@ -913,14 +847,6 @@ video {
 
 .text-\[14px\] {
   font-size: 14px;
-}
-
-.text-\[8px\] {
-  font-size: 8px;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
 }
 
 .font-bold {
@@ -939,10 +865,6 @@ video {
 .text-\[gray\] {
   --tw-text-opacity: 1;
   color: rgb(128 128 128 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .placeholder\:text-\[12px\]::-moz-placeholder {

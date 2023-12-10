@@ -2,4 +2,6 @@
 
 # FIGMA IN TAILWIND-CSS
 
-# TELEGRAM NIC_NAME --> @jahongir_4546
+#CONTACT
+
+# TELEGRAM --> @jahongir_4546
